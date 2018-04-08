@@ -1,3 +1,5 @@
+<img src="https://i.imgur.com/YpqFMh9.png">
+
 # osu!BackgroundChanger
 Allows you to change your osu! background without supporter status!
 

@@ -43,7 +43,7 @@ namespace osu_BackgroundChanger
 
         public ResourceElementSet ResourceSet
         {
-            get => _elementSet ?? (_elementSet = ResourceReader.Read(_module, Resource.Data));
+            get => _elementSet ?? (_elementSet = ResourceReader.Read(_module, Resource.CreateReader()));
             set => _elementSet = value;
         }
     }
